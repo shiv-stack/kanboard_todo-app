@@ -14,7 +14,7 @@ export default function Signup() {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4001/user/signup",
+        "https://kanboard-todo-app-backend.vercel.app/user/signup",
         {
           username,
           email,
